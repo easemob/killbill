@@ -76,9 +76,11 @@
             <groupId>com.ning</groupId>
             <artifactId>async-http-client</artifactId>
         </dependency>
+
         <dependency>
             <groupId>com.palominolabs.metrics</groupId>
             <artifactId>metrics-guice</artifactId>
+            <version>3.2.2</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
@@ -449,6 +451,7 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
+            <version>6.13.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
